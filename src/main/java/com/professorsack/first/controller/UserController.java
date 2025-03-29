@@ -17,7 +17,7 @@ public class UserController {
         this.userService = userService;
     }
 
-    //comment for testing 3
+    //comment for testing 
     @GetMapping
     public List<User> getUsers() {
         return userService.getAllUsers();
