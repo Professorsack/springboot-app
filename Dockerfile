@@ -6,4 +6,4 @@ WORKDIR /app
 # Copy the built JAR file from the target directory to the container
 COPY target/first-0.0.1-SNAPSHOT.jar /app/app.jar
 
-CMD ["java", "-jar", "first-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "/app/app.jar"]
